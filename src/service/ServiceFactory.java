@@ -13,14 +13,6 @@ package service;
  *   <li>Facilita testes (pode-se substituir por mock services)</li>
  *   <li>Ponto único de controlo para criação de serviços</li>
  * </ul>
- *
- * <p>Exemplo de uso:</p>
- * <pre>
- *   PacienteService svc = ServiceFactory.getInstance().criarPacienteService();
- * </pre>
- *
- * @author Clinica
- * @version 1.0
  */
 public class ServiceFactory {
 
