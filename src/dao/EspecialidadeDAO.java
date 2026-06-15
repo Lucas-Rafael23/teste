@@ -13,10 +13,6 @@ import java.util.List;
  *
  * <p>Utiliza {@link ConnectionFactory} (Singleton) para obter conexões
  * e é criado através de {@link DAOFactory} (Factory Pattern).</p>
- *
- * @author Clinica
- * @version 1.0
- */
 public class EspecialidadeDAO {
 
     /** Fábrica de conexões (Singleton). */
